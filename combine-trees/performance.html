@@ -6,7 +6,7 @@
     <h1>Performance Improvements</h1>
 
     <section>
-        <h2>Online BST vs. Offline BST</h2>
+        <h3>Distinction: Online BST vs. Offline BST</h3>
         <p>
             Throughout this report, I will continue to mention online and offline BSTs and there is an important distinction.
         </p>
@@ -26,11 +26,21 @@
     </section>
 
     <section>
-        <h2>C-competitive Binary Search Tree</h2>
+        <h3>C-competitive Binary Search Tree</h3>
         <p>For an access sequence <i>X</i> there exists an offline BST that can perform it optimally.
             The number of unit cost of operations performed by this BST is <i>OPT(X)</i>. An <i>online</i>
             BST is C-competitive if it can perform <i>X</i> in at most <i>C*OPT(X)</i>. An online BST that is
             O(1)-Competitive is called <i>dynamically optimal</i>.
+        </p>
+    </section>
+
+    <section>
+        <h3>Working Set Bound</h3>
+        <!-- TODO: Have an image representing this -->
+        <p>If a BST data structure holds the working set bound, then each access to to <i>x</i> is accessed
+            in <i>O(log w(x))</i>. Where <i>w(x)</i> is the number of elements accessed since the last access to
+            <i>x</i>. This performace boost is a great improvment when the same element is accessed many times and
+            this bound is found in splay trees.
         </p>
     </section>
 
