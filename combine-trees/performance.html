@@ -6,17 +6,19 @@
     <h2>Table of Contents</h2>
     <ul>
         <li><a href="index.html">Introduction</a></li>
-        <li><a href="bst_models.html">BST Models</a></li>
-        <li><b>Performance Improvements</b></li>
+        <li><a href="bst_models.html">Multifinger BST Model</a></li>
+        <li><b>Notable BST Performance Improvements</b></li>
         <li>Theorm & Implementation</li>
         <li>Future Work</li>
     </ul>
-    <h1>Performance Improvements</h1>
+    <h1>Notable BST Performance Improvements</h1>
     <p>
-        Here I'll summarize some notable BST performace enhancements. These will be important when dicussing
+        This list of improvments will be important when dicussing
         the significance of our algorithm and its ability to combine performance bounds from many BSTs. I start
-        off with an important distinction between online and offline BSTs.
+        off with an important distinction between online and offline BSTs. All these definitions can be found on page 2
+        of the the publication.
     </p>
+    <br>
 
     <section>
         <h3>Distinction: Online BST vs. Offline BST</h3>
@@ -34,6 +36,35 @@
         </p>
     </section>
 
+
+    <section>
+        <h3>Working Set Bound</h3>
+        <!-- TODO: Have an image representing this -->
+        <p>If a BST data structure holds the working set bound, then each access to to <i>x</i> is accessed
+            in <i>O(log w(x))</i>. Where <i>w(x)</i> is the number of elements accessed since the last access to
+            <i>x</i>.  This performace boost is a great improvment when the same element is accessed many times and
+            this bound is found in splay trees.
+        </p>
+    </section>
+
+    <section>
+        <h3>Static and Dynamic Finger Bound</h3>
+        <p>Remember those <a href="bst_models.html">multifinger BSTs?</a> Here are some performance improvments from having multiplefingers.</p>
+        <!-- TODO: have image with this -->
+        <p>The static finger bound requires that each access <i>x</i> is executed in <i>O(log d(f,x))</i> amortized time where <i>d(f,x)</i> is
+            the number of keys between any fixed finger <i>f</i> and <i>x</i>.
+        </p>
+        <!-- TODO: have image with this -->
+        <p>
+            The dynamic finger bound which requires that each access <i>x</i> is executed in <i>O(log d(y, x))</i> amortized time where <i>y</i>
+            is the previous item in the access sequence.
+        </p>
+    </section>
+    <br>
+    <br>
+
+    <h2>Useful definitions</h2>
+
     <section>
         <h3>C-competitive Binary Search Tree</h3>
         <p>For an access sequence <i>X</i> there exists an offline BST that can perform it optimally.
@@ -44,29 +75,20 @@
     </section>
 
     <section>
-        <h3>Working Set Bound</h3>
-        <!-- TODO: Have an image representing this -->
-        <p>If a BST data structure holds the working set bound, then each access to to <i>x</i> is accessed
-            in <i>O(log w(x))</i>. Where <i>w(x)</i> is the number of elements accessed since the last access to
-            <i>x</i>. [p.2] This performace boost is a great improvment when the same element is accessed many times and
-            this bound is found in splay trees.
+        <h3>Unified Bound</h3>
+        <p>
+            The unified bound is a combination of both the dynamic finger bound and the working set bound.
         </p>
     </section>
+
 
     <section>
-        <h3>Static and Dynamic Finger Bound</h3>
-        <p>Remember those <a href="bst_models.html">multifinger BSTs?</a> Here are some performance improvments from having multiplefingers.</p>
-        <!-- TODO: have image with this -->
-        <p>The static finger bound requires that each access <i>x</i> is executed in <i>O(log d(f,x))</i> amortized time where <i>d(f,x)</i> is
-            the number of keys between any fixed finger <i>f</i> and <i>x</i>. [p.2]
-        </p>
-        <!-- TODO: have image with this -->
+        <h3>Static Optimality Bound</h3>
         <p>
-            The dynamic finger bound which requires that each access <i>x</i> is executed in <i>O(log d(y, x))</i> amortized time where <i>y</i>
-            is the previous item in the access sequence.
+            The static optimality bound requires that any access sequence is executed within a constant factor of the time it would take to
+            execute it on the best static tree for that sequence.
         </p>
     </section>
-
 
 
 </body>
