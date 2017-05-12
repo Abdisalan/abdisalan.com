@@ -1,0 +1,42 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Multifinger-BST Model</h1>
+    <section>
+    <!-- TODO: HAVE IMAGE OF BST -->
+        The traditional BST model of a set of elements is defined as:
+        <ul>
+            <li>A single rooted tree of n nodes</li>
+            <li>Each node holds a value which we call a key</li>
+            <li>Each node stores 3 pointers -- to its parent, left and right child</li>
+            <li>The key stored in the left tree is smaller than the parent's key</li>
+            <li>The key stored in the right tree is larger than the parent's key</li>
+        </ul>
+        More importantly, and what we focus on is that to implement searches in this tree,
+        there is a single "finger" pointed to a node in the tree.
+    </section>
+
+    <section>
+        <h2>The Multifinger-BST Model</h2>
+        <!-- TODO: make image of multifinger BST -->
+        Identical to the traditional BST model above, but we have a constant number of fingers
+        all initially at the root of the tree. These additional fingers allow for various improvements
+        when searching for nodes.
+    </section>
+
+
+
+
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="index.html">Introduction</a></li>
+        <li><b>BST Models</b></li>
+        <li><a href="performance.html">Performance Improvements</a></li>
+        <li>Theorm & Implementation</li>
+        <li>Future Work</li>
+    </ul>
+
+</body>
+</html>

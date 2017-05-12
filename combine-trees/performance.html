@@ -1,0 +1,51 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Performance Improvements</h1>
+
+    <section>
+        <h2>Online BST vs. Offline BST</h2>
+        <p>
+            Throughout this report, I will continue to mention online and offline BSTs and there is an important distinction.
+        </p>
+
+        <p>
+            <b>For a sequence of seaches in a BST:</b>
+        </p>
+
+        <p>An <i>offline</i> BST is able to perform the searches as a function of the the entire access sequence.
+           In other words, the BST is constructed with knowledge of the entire sequence and the best possible performing tree is made.
+        </p>
+
+        <p>An <i>online</i> BST is able to perform each searches as a function of all the searches that came before.
+            The BST is initially constructed with no knowledge of the sequence, then is able to adjust the BST as
+            each access is made.
+        </p>
+    </section>
+
+    <section>
+        <h2>C-competitive Binary Search Tree</h2>
+        <p>For an access sequence <i>X</i> there exists an offline BST that can perform it optimally.
+            The number of unit cost of operations performed by this BST is <i>OPT(X)</i>. An <i>online</i>
+            BST is C-competitive if it can perform <i>X</i> in at most <i>C*OPT(X)</i>. An online BST that is
+            O(1)-Competitive is called <i>dynamically optimal</i>.
+        </p>
+    </section>
+
+    <section>
+    </section>
+
+
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="index.html">Introduction</a></li>
+        <li><a href="bst_models.html">BST Models</a></li>
+        <li><b>Performance Improvements</b></li>
+        <li>Theorm & Implementation</li>
+        <li>Future Work</li>
+    </ul>
+
+</body>
+</html>
