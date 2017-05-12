@@ -1,0 +1,56 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="index.html">Introduction</a></li>
+        <li><a href="bst_models.html">Multifinger BST Model</a></li>
+        <li><a href="performance.html">Notable BST Performance Improvements</a></li>
+        <li><b>Some BST Data Structures</b></li>
+        <li><a href="results.html">Results</a></li>
+        <li>Theorm & Method</li>
+        <li>Future Work</li>
+    </ul>
+
+    <h1> Notable BST Data Structures </h1>
+    <p>
+        Here I note some famous BST data structures and which performance improvments they hold
+        as defined in the <a href="performance.html">section before.</a>
+    </p>
+    <br>
+
+    <section>
+        <h3>Splay Tree</h3>
+        <p>In short, a tree that moves every accessed element to the root via <a href="https://en.wikipedia.org/wiki/Splay_tree" target="_blank"> "splaying".</a></p>
+        <ul>
+            <li>Static Optimality Bound</li>
+            <li>Static Finger Bound</li>
+            <li>Unified Bound with overhead <i>O(n log n)</i></li>
+        </ul>
+    </section>
+    <br>
+
+    <section>
+        <h3>Multi-Splay Tree</h3>
+        <p>A variant of <a href="https://en.wikipedia.org/wiki/Tango_tree" target="_blank">Tango Trees</a>.
+            Improves on Tango Tree with a better worst case query performance.</p>
+        <ul>
+            <li><i>O(log log n)-competitive</i></li>
+            <li>Static Optimality Bound</li>
+            <li>Static Finger Bound</li>
+            <li>Unified Bound with overhead <i>O(n log n)</i></li>
+        </ul>
+    </section>
+    <br>
+    <section>
+        <h3>Layered Working Set Tree</h3>
+        <p>This tree guarentees the working set bound at worst case.</p>
+        <ul>
+            <li>Static Finger Bound</li>
+            <li>Unified Bound with overhead <i>O(log log n)</i></li>
+        </ul>
+    </section>
+</body>
+</html>
