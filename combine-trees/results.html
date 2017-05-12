@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="index.html">Introduction</a></li>
+        <li><a href="bst_models.html">Multifinger BST Model</a></li>
+        <li><a href="performance.html">Notable BST Performance Improvements</a></li>
+        <li><a href="notable_bsts.html">Some BST Data Structures</a></li>
+        <li><b>Results</b></li>
+        <li><a href="theory.html">Theorm & Method</a></li>
+        <li>Future Work</li>
+    </ul>
+
+    <h1> Resulting BST From Combination </h1>
+
+    <p>This algorithm combines a constant number of BST data structures (note these are structures such as splay trees and red-black trees)
+        and results in a BST that’s O(1)-competitive with the given BSTs and retains its performance bounds with some overhead.
+    </p>
+
+    <p>
+        Using this method, we can combine the trees mentioned in the previous section: splay, multi-splay, and layered working set trees.
+        This results in:
+    </p>
+    <ul>
+        <li><i>O(log log n)-competitive</i></li>
+        <li>Static Optimality Bound</li>
+        <li>Static Finger Bound</li>
+        <li>Unified Bound with overhead <i>O(log log n)</i></li>
+        <li>Worst case access <i>O(log n)</i>
+    </ul>
+
+</body>
+</html>
