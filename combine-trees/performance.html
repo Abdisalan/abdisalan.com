@@ -39,12 +39,23 @@
         <!-- TODO: Have an image representing this -->
         <p>If a BST data structure holds the working set bound, then each access to to <i>x</i> is accessed
             in <i>O(log w(x))</i>. Where <i>w(x)</i> is the number of elements accessed since the last access to
-            <i>x</i>. This performace boost is a great improvment when the same element is accessed many times and
+            <i>x</i>. [p.2] This performace boost is a great improvment when the same element is accessed many times and
             this bound is found in splay trees.
         </p>
     </section>
 
     <section>
+        <h3>Static and Dynamic Finger Bound</h3>
+        <p>Remember those <a href="bst_models.html">multifinger BSTs?</a> Here are some performance improvments from having multiplefingers.</p>
+        <!-- TODO: have image with this -->
+        <p>The static finger bound requires that each access <i>x</i> is executed in <i>O(log d(f,x))</i> amortized time where <i>d(f,x)</i> is
+            the number of keys between any fixed finger <i>f</i> and <i>x</i>. [p.2]
+        </p>
+        <!-- TODO: have image with this -->
+        <p>
+            The dynamic finger bound which requires that each access <i>x</i> is executed in <i>O(log d(y, x))</i> amortized time where <i>y</i>
+            is the previous item in the access sequence.
+        </p>
     </section>
 
 
