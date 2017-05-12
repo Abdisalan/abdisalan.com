@@ -6,6 +6,15 @@ body {
     color: #444;
     padding: 0 10px
 }
+
+img {
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+}
+
 h1,
 h2,
 h3 {
