@@ -10,7 +10,7 @@
         <li><a href="performance.html">Notable BST Performance Improvements</a></li>
         <li><a href="notable_bsts.html">Some BST Data Structures</a></li>
         <li><a href="results.html">Results</a></li>
-        <li><b>Theorm & Method</b></li>
+        <li><b>Theory & Method</b></li>
         <li><a href="future.html">Future Work</a></li>
     </ul>
 
@@ -34,7 +34,20 @@
         <p><i>Combo-BST = O(min(P_A, P_B) + f(n)) </i></p>
     </section>
 
-    <h3>Step by step with pictures method</h3>
-    <p></p>
+    <br>
+    <section>
+        <h3>Method</h3>
+        <p>
+            Assume we are combining trees <i>A</i> and <i>B</i>, both with some overhead <i>f(n)</i>. We want to complete a set of accesses <i>X</i>.
+            <ul>
+                <li>Save the tree state of <i>A</i></li>
+                <li>Perform a round of accesses from <i>X</i>. One round is a number of operations equal to some constant, <i>C</i>, multiplied by the overhead <i>f(n).</i>
+                    <i>C</i> is chosen so that each tree gets to do at least 1 access per round (1 access could cost many operations)</li>
+                <li>Restore the tree state of <i>A</i></li>
+                <li>Repeat on <i>B</i>, then <i>A</i> again until all accesses from <i>X</i> are done.</li>
+            </ul>
+            <i>Process is explained in great detail on the bottom of page 10 and top of page 11 of the publication.</i>
+        </p>
+    </section>
 </body>
 </html>
