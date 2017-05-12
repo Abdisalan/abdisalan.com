@@ -10,12 +10,29 @@
         <li><a href="performance.html">Notable BST Performance Improvements</a></li>
         <li><a href="notable_bsts.html">Some BST Data Structures</a></li>
         <li><a href="results.html">Results</a></li>
-        <li><b>Theorm & Method</b></li>
+        <li><b>Theory & Method</b></li>
         <li>Future Work</li>
     </ul>
 
-    <h1>Theory & method</h1>
-    <p>Summary of Theory</p>
+    <h1>Theory & Method</h1>
+    <p>
+        Here is definition of the algorithm, then a step by step method on how to execute it.
+        The initial algorithm allows for a constant number of combinations, but in this example
+        2 are used to simplify the explanation.
+    </p>
+    <br>
+    <section>
+        <h3>Theory</h3>
+        <p>
+            Given two online BST data structures, <i>A</i> and <i>B</i>, let <i>P_A</i> and <i>P_B</i>
+            be the amortized upper-bound with overhead <i>f(n)</i> on the running time of <i>A</i> and <i>B</i>
+            respectively on an online access sequence X. Then there exists an online BST data structure,
+            Combo-BST, that given the initial trees <i>A</i> and <i>B</i> and overhead <i>f(n)</i> has an
+            upper-bound of:
+        </p>
+
+        <p><i>Combo-BST = O(min(P_A, P_B) + f(n)) </i></p>
+    </section>
 
     <h3>Step by step with pictures method</h3>
     <p></p>
