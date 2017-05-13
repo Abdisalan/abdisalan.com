@@ -39,11 +39,21 @@
         <h3>Method</h3>
         <p>
             Assume we are combining trees <i>A</i> and <i>B</i>, both with some overhead <i>f(n)</i>. We want to complete a set of accesses <i>X</i>.
+        </p>
+            <img src="images/method_1.JPG">
+        <p>
             <ul>
                 <li>Save the tree state of <i>A</i></li>
                 <li>Perform a round of accesses from <i>X</i>. One round is a number of operations equal to some constant, <i>C</i>, multiplied by the overhead <i>f(n).</i>
-                    <i>C</i> is chosen so that each tree gets to do at least 1 access per round (1 access could cost many operations)</li>
+                    <i>C</i> is chosen so that each tree gets to do at least 1 access per round (1 access could cost many operations).
+                    Here the state of the tree changes completely because of the acceses from that round.</li>
+            </ul>
+                <img src="images/method_2.JPG">
+            <ul>
                 <li>Restore the tree state of <i>A</i></li>
+            </ul>
+            <img src="images/method_1.JPG">
+            <ul>
                 <li>Repeat on <i>B</i>, then <i>A</i> again until all accesses from <i>X</i> are done.</li>
             </ul>
             <i>Process is explained in great detail on the bottom of page 10 and top of page 11 of the publication.</i>
