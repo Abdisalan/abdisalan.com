@@ -18,6 +18,14 @@ h1 {
     text-align: center;
 }
 
+.bad {
+    color: rgb(239, 101, 91);
+}
+
+.good {
+    color: rgb(99, 189, 103);
+}
+
 h1,
 h2,
 h3 {

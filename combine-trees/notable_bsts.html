@@ -25,10 +25,10 @@
         <h3>Splay Tree</h3>
         <p>In short, a tree that moves every accessed element to the root via <a href="https://en.wikipedia.org/wiki/Splay_tree" target="_blank"> "splaying".</a></p>
         <ul>
-            <li>Static Optimality Bound</li>
-            <li>Static Finger Bound</li>
-            <li>Unified Bound with overhead <i>O(n log n)</i></li>
-            <li>Worst case access <i>O(n)</i></li>
+            <li class="good">Static Optimality Bound&#10004;</li>
+            <li class="good">Static Finger Bound&#10004;</li>
+            <li class="bad">Unified Bound with overhead <i>O(n log n)</i>&#10008;</li>
+            <li class="bad">Worst case access <i>O(n)</i>&#10008;</li>
         </ul>
     </section>
     <br>
@@ -38,11 +38,11 @@
         <p>A variant of <a href="https://en.wikipedia.org/wiki/Tango_tree" target="_blank">Tango Trees</a>.
             Improves on Tango Tree with a better worst case query performance.</p>
         <ul>
-            <li><i>O(log log n)-competitive</i></li>
-            <li>Static Optimality Bound</li>
-            <li>Static Finger Bound</li>
-            <li>Unified Bound with overhead <i>O(n log n)</i></li>
-            <li>Worst case access <i>O(log^2 n)</i></li>
+            <li class="good"><i>O(log log n)-competitive</i> &#10004;</li>
+            <li class="good">Static Optimality Bound &#10004;</li>
+            <li class="good">Static Finger Bound &#10004;</li>
+            <li class="bad">Unified Bound with overhead <i>O(n log n)</i>&#10008;</li>
+            <li class="bad">Worst case access <i>O(log^2 n)</i>&#10008;</li>
         </ul>
     </section>
     <br>
@@ -50,9 +50,9 @@
         <h3>Layered Working Set Tree</h3>
         <p>This tree guarentees the working set bound at worst case.</p>
         <ul>
-            <li>Static Finger Bound</li>
-            <li>Unified Bound with overhead <i>O(log log n)</i></li>
-            <li>Worst case access <i>O(log n)</i></li>
+            <li class="good">Static Finger Bound &#10004;</li>
+            <li class="good">Unified Bound with overhead <i>O(log log n)</i>&#10004;</li>
+            <li class="good">Worst case access <i>O(log n)</i>&#10004;</li>
         </ul>
     </section>
 </body>
