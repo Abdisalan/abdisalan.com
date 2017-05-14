@@ -42,14 +42,14 @@
 
     <section>
         <h3>Working Set Bound</h3>
-        <p>If a BST data structure holds the working set bound, then each access to to <i>x</i> is accessed
-            in <i>O(log w(x))</i>. Where <i>w(x)</i> is the number of elements accessed since the last access to
-            <i>x</i>.  This performace boost is a great improvment when the same element is accessed many times and
-            this bound is found in splay trees.
+        <p>If a BST data structure holds the working set bound, then each access to <i>x</i> is done
+            in <i>O(log w(x))</i> time where <i>w(x)</i> is the number of elements accessed since the last access to
+            <i>x</i>.  This is a great improvment when the many of the same element are accessed many times.
         </p>
         <h4> Example </h4>
         <img src="images/working_set.JPG">
-        <p>Here 23 was accessed first, then 72, then 50. As you can see, because 72 was accessed recently and is one of 3 possible results from the root</p>
+        <p>Here 23 was accessed first, then 72, then 50. Each time an element was accessed, it was moved the root of the tree. Because 72 was accessed recently,
+            it is much further up in the tree and can be found quicker.</p>
     </section>
 
     <section>
