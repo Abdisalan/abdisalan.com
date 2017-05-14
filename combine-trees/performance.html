@@ -29,11 +29,11 @@
             <b>For a sequence of seaches in a BST:</b>
         </p>
 
-        <p>An <i>offline</i> BST is able to perform the searches as a function of the the entire access sequence.
+        <p>An <i>offline</i> BST is able to perform searches as a function of the the entire access sequence.
            In other words, the BST is constructed with knowledge of the entire sequence and the best possible performing tree is made.
         </p>
 
-        <p>An <i>online</i> BST is able to perform each searches as a function of all the searches that came before.
+        <p>An <i>online</i> BST is able to perform searches as a function of all the searches that came before.
             The BST is initially constructed with no knowledge of the sequence, then is able to adjust the BST as
             each access is made.
         </p>
@@ -54,7 +54,7 @@
 
     <section>
         <h3>Static and Dynamic Finger Bound</h3>
-        <p>Remember those <a href="bst_models.html">multifinger BSTs?</a> Here are some performance improvments from having multiplefingers.</p>
+        <p>Remember those <a href="bst_models.html">multifinger BSTs?</a> Here are some performance improvments from having multiple fingers.</p>
         <p>The static finger bound requires that each access <i>x</i> is executed in <i>O(log d(f,x))</i> amortized time where <i>d(f,x)</i> is
             the number of keys between any fixed finger <i>f</i> and <i>x</i>. The number of keys between the finger and x is defined as the number of values
             within the tree with <i>f</i> as the root and and <i>x</i> as a leaf.
