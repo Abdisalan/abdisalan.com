@@ -2,7 +2,7 @@
 template: post
 title: Correct Way of Making a Post
 slug: /posts/correct-way
-draft: false
+draft: true 
 date: 2019-09-14T20:11:21.306Z
 description: You do it through the CMS tool ya dingus!
 category: Netlify Tutorial
