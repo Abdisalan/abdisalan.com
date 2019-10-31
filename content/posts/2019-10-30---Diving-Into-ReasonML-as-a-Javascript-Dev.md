@@ -7,6 +7,7 @@ slug: "/posts/diving-into-reasonml-as-a-javascript-dev/"
 tags:
   - "ReasonML"
 description: "Trying ReasonML! It's a pretty cool language"
+socialImage: "/media/reason.png"
 ---
 ## Motivation
 
