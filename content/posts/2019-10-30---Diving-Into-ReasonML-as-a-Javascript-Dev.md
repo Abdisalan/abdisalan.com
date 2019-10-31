@@ -10,13 +10,10 @@ description: "Trying ReasonML! It's a pretty cool language"
 ---
 ## Motivation
 
-```shell-session
-$ git commit --amend --no-edit
-```
-
 I'm a web developer, customarily writing javascript on the front-end, but I want to write in a typed functional language. I was going to try TypeScript and then I stumbled upon [Reason](https://reasonml.github.io/).
 
 ReasonML is a dialect of OCaml that's friendly to JavaScript developers but still has all the features you'd want in a functional language. And, by using [BuckleScript](https://bucklescript.github.io/), we can translate Reason to Javascript! With this choice, I'm off to start learning.
+
 ## Practice
 
 As an introduction, I'm tackling the ReasonML course on [exercism.io](http://exercism.ioexercism.io/). They have an assortment of challenges to help you get familiar with the syntax and idioms. For one of my first challenges, I completed the binary search problem. Here's my solution.
