@@ -17,7 +17,7 @@ ReasonML is a dialect of OCaml that's friendly to JavaScript developers but stil
 
 ## Practice
 
-As an introduction, I'm tackling the ReasonML course on [exercism.io](http://exercism.ioexercism.io/). They have an assortment of challenges to help you get familiar with the syntax and idioms. For one of my first challenges, I completed the binary search problem. Here's my solution.
+As an introduction, I'm tackling the ReasonML course on [exercism.io](http://exercism.io/). They have an assortment of challenges to help you get familiar with the syntax and idioms. For one of my first challenges, I completed the binary search problem. Here's my solution.
 
 ```reason
 let find = (numbers: array(int), num: int): option(int) => {
@@ -43,7 +43,7 @@ let find = (numbers: array(int), num: int): option(int) => {
 }
 ```
 
-The code uses recursion because It helped me break down the problem into smaller, more easily solvable ones. Also because I know that BuckleScript will change the code to be more performant when transpiled to javascript. i.e. It'll use a loop instead.
+The code uses recursion because it helped me break down the problem into smaller, more easily solvable ones. Also because I know that BuckleScript will change the code to be more performant when transpiled to javascript. i.e. it'll use a loop instead.
 
 [You can check out the generated code for yourself here.](https://reasonml.github.io/en/try?rrjsx=true&reason=DYUwLgBAZglgdgEwgXggCjgZwDQTgShQD4IBvAKAglEgCcQBjaeBACRGAAcRaV1hctQshIUqVGhAYg4YHnzTAIAaghCIAeggAmANyVxMKPwgl1Y8VQByAezgh9lgL4QOmEBCPosAbWmyeAF0UVAIyA0sAZRsAWxA0fzkhR3EXNw8vDEw-GSTggB48CEILS1hEdi4eBNz5VQBGQXwUqjTgd3DLKnK2Dm5aRVxE+QBaCHrmiIgnAxmJcAhMGAAvD1QAQVpaAEMATwA6UDgAczAACyzJqkyl1ZCIAAYSqdt7Wdd2j1LmCr7qh9wtw8Ywms3ITiAA)
 
@@ -74,9 +74,9 @@ let find = (numbers, num) => {
 
 [The generated js code](https://reasonml.github.io/en/try?rrjsx=true&reason=DYUwLgBAZglgdgEwgXggCjgZwDQTgShQD4IBvAKAglEgCcQBjaeBACRGAAcRaV1hctQshIUqVGhAYg4YHnzTAIAaghCIAeggAmANyVxMKPwgl1Y8VQByAezggDVAL4QOmEGUfjMAdxhgGAAsMTABtaVkeAF1CC0sAHwgANwgfQJlklFQ4YggAZRsAWxA0CLkhLypElLSMlIAePFzYRHYuHlKZcpUIAEZBfEqIRIB9ZpY27lpFXDL5AFo+wctnLycDdaoAQVpaAEMATwA6UDgAczBgrGFUAAYIAH4IW3sIAC5mVo4ptFvcHf2x1OFyumEIi16gycQA) from this block also results in a while loop.
 
-## Javascript Solution For Comparison
+## Javascript Solution for Comparison
 
-This is how I'd write the challenge in javascript for the curious (almost exactly how bucklescript wrote it!)
+This is how I'd write the challenge in javascript for the curious (almost exactly how BuckleScript wrote it!)
 
 ```javascript
 const find = (ns, n) => {
@@ -116,4 +116,4 @@ const find = (ns, n) => {
 
 I'm a fan of [exercism.io](http://exercism.io/) challenges and I'll try some more to get familiar with Reason. This challenge didn't give a good intro to the rich type system that Reason has so I'll have to explore that too.
 
-I'm eager to write a web app using reasonreact and create another post of my progress. When I finish, I'll make sure to link that here. See you in the next post!
+I'm eager to write a web app using reasonreact and create another post of my progress. [When I finish, I'll make sure to link that here.](/posts/trying-reason-react) See you in the next post!
