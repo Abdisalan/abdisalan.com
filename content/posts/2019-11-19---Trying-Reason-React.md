@@ -8,7 +8,7 @@ tags:
   - "ReasonML"
   - "Reason-React"
 description: "Finally got some time to try out React in ReasonML! Here's what I've learned!"
-socialImage: "/media/reason.png"
+socialImage: "/media/reasonxkcd.png"
 ---
 
 ![](/media/../public/media/reasonxkcd.png)
