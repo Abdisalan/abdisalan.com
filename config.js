@@ -18,16 +18,12 @@ module.exports = {
     {
       label: 'About me',
       path: '/pages/about'
-    },
-    {
-      label: 'Contact me',
-      path: '/pages/contacts'
     }
   ],
   author: {
     name: 'Abdisalan Mohamud',
     photo: '/photo.jpg',
-    bio: 'Software Engineer',
+    bio: 'Tufts \'17, Software Engineer @ Dispatch. I blog about functional programming and other stuff.',
     contacts: {
       twitter: 'abdisalan_js',
       github: 'abdisalan',
