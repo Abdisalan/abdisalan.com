@@ -80,6 +80,15 @@
         @include margin-bottom(1.125)
       }
 
+      & pre[class*="language-"] {
+        font-size: $typographic-base-font-size * 1;
+        border-radius: 5px;
+      }
+
+      & code[class*="language-"] {
+        font-size: $typographic-base-font-size * 1;
+      }
+
     }
 
   }
