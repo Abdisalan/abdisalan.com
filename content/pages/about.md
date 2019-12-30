@@ -11,7 +11,7 @@ My name is Abdisalan Mohamud and I'm a software engineer.
 Quick Fun Facts:
 - I'm a black belt in Shotokan Style Karate
 - I love Electronic Dance Music (EDM)
-- I have13 brothers and sisters
+- I have 13 brothers and sisters
 
 I went to Tufts University and got a degree in Computer Science. I currently work at [Dispatch](https://www.dispatch.me/) in Boston where I get to apply the latest tech to the [Field Service Management](https://en.wikipedia.org/wiki/Field_service_management) space!
 
