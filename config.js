@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Mostly ramblings and what I\'m up to ',
   copyright: '© Abdisalan Mohamud 2019',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 100,
   googleAnalyticsId: 'UA-148068744-1',
   useKatex: false,
   menu: [
