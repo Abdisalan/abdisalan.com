@@ -334,32 +334,6 @@ exports[`IndexTemplate renders correctly 1`] = `
             </a>
           </div>
         </div>
-        <div
-          className="pagination"
-        >
-          <div
-            className="pagination__prev"
-          >
-            <a
-              className="pagination__prev-link"
-              href="/page/1"
-              rel="prev"
-            >
-              ← PREV
-            </a>
-          </div>
-          <div
-            className="pagination__next"
-          >
-            <a
-              className="pagination__next-link"
-              href="/page/3"
-              rel="next"
-            >
-              → NEXT
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   </div>
