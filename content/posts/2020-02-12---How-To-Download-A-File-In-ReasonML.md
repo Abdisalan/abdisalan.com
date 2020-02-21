@@ -5,6 +5,7 @@ template: "post"
 draft: false
 slug: "/posts/how-to-download-a-file-using-reasonml"
 description: "How to prepare any file for downloading!"
+category: "Tutorial"
 tags:
   - "ReasonML"
 socialImage: "/media/20200105-form.png"

@@ -1,11 +1,11 @@
 ---
-title: "1 CSS Property You Should Use In Your Next Web Project"
+title: "1 Weird CSS Property You Should Use In Your Next Web Project"
 date: "2020-02-21T04:22:27.963Z"
 template: "post"
 draft: false
 slug: "/posts/one-css-property-you-should-use-in-your-next-project"
 description: "Are you tired measuring the width of your divs? Well measure no more with this new handy css property!"
-category: "Web Development"
+category: "Tutorial"
 tags:
   - "CSS"
 socialImage: "/media/border-box.png"
