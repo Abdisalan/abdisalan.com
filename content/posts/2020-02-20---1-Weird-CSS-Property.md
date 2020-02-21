@@ -7,7 +7,7 @@ slug: "/posts/one-css-property-you-should-use-in-your-next-project"
 description: "How to prepare any file for downloading!"
 tags:
   - "CSS"
-socialImage: "/media/20200105-form.png"
+socialImage: "/media/border-box.png"
 ---
 
 First, we need to familiarize you with the CSS Box Model.
