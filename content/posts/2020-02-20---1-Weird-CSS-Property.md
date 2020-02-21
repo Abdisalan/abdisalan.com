@@ -105,9 +105,11 @@ I personally prefer `border-box`, but they each have their pros and cons. Tell m
 
 If you want to include border-box in your next project, you can use this handy CSS rule to apply it to all your elements.
 
-    * {
-        box-sizing: border-box;
-    }
+```css
+* {
+    box-sizing: border-box;
+}
+```
 
 Hope you enjoyed this post and you start using `border-box` in all your projects!
 
