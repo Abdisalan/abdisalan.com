@@ -4,6 +4,7 @@ date: "2019-10-30T23:28:53.919Z"
 template: "post"
 draft: false
 slug: "/posts/diving-into-reasonml-as-a-javascript-dev/"
+category: "Web Development"
 tags:
   - "ReasonML"
 description: "Trying ReasonML! It's a pretty cool language"

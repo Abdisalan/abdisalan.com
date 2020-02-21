@@ -5,6 +5,7 @@ template: "post"
 draft: false
 slug: "/posts/i-think-im-making-an-app-part-2"
 description: "I've reached the prototype stage! You can now use the code theme engine to make your own code themes using prismjs with gatsby"
+category: "Projects"
 tags:
   - "Prototype" 
   - "ReasonML"

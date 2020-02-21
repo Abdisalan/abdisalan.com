@@ -4,6 +4,7 @@ date: "2019-11-20T02:13:26.596Z"
 template: "post"
 draft: false
 slug: "/posts/trying-reason-react/"
+category: "Web Development"
 tags:
   - "ReasonML"
   - "Reason-React"

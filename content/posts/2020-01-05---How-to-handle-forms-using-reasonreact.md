@@ -5,6 +5,7 @@ template: "post"
 draft: false
 slug: "/posts/how-to-handle-forms-using-reasonreact"
 description: "I explain how to capture form events using the ReactEvent module from ReasonReact."
+category: "Web Development"
 tags:
   - "ReasonML"
   - "ReasonReact"

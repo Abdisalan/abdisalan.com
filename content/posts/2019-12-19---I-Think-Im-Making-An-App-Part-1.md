@@ -5,6 +5,7 @@ template: "post"
 draft: false
 slug: "/posts/i-think-im-making-an-app-part-1"
 description: "I want to show my process. How I go from concept to code then product. Hope this helps inspire your own method for making apps!"
+category: "Projects"
 tags:
   - "Planning" 
 socialImage: "/media/20191219-QuickMockup.png"
