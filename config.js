@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Abdisalan Mohamud',
   subtitle: 'Mostly ramblings and what I\'m up to ',
-  copyright: '© Abdisalan Mohamud 2019',
+  copyright: '© Abdisalan Mohamud 2020',
   disqusShortname: '',
   postsPerPage: 100,
   googleAnalyticsId: 'UA-148068744-1',
