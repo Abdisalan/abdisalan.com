@@ -12,11 +12,11 @@ socialImage: "https://dev-to-uploads.s3.amazonaws.com/i/h93o768yc4f0ytk47pp8.jpg
 ---
 
 Let's talk about pages. You know, like this
-![Google Search Result pages](https://dev-to-uploads.s3.amazonaws.com/i/l6suie8c0v02edmszv4y.png)
+![Google Search Result pages](media/20200616-googlesearch.png)
 
 
 or infinite scrolling pages like this
-![Dev.to infinite scrolling](https://dev-to-uploads.s3.amazonaws.com/i/ihmvynigr6fax2ff1189.gif)
+![Dev.to infinite scrolling](media/20200616-infinitescroll.gif)
 
 Because we never want to give our website visitors all of our data, we present them in pages and let users load more as they please.
 
@@ -43,7 +43,7 @@ First, I'm going to explain why using offset for pagination is not a good idea, 
 
 Here's a graph showing how much time it takes to get each page. Notice that as the page number grows, the time needed to get that page increases linearly as well.
 
-![Graph of query time increasing linearly](https://dev-to-uploads.s3.amazonaws.com/i/bdeltz9i930llxj9zu6x.png)
+![Graph of query time increasing linearly](media/20200616-chart1.png)
 
 ```
 Results:
@@ -80,7 +80,7 @@ This method is not only much faster but is also resilient to changing data! It d
 
 Here's another graph showing the time it takes to page through 2 million rows of data, 100 rows at a time. Notice that it stays consistent!
 
-![Graph of query time staying constant](https://dev-to-uploads.s3.amazonaws.com/i/73clnw87dd8rfgtxtm4k.png)
+![Graph of query time staying constant](media/20200616-chart2.png)
 
 The trade-off is that it cannot go to an arbitrary page, because we need the id to find the page. This is is a great trade-off for infinite scrolling websites like Reddit and Twitter.
 
