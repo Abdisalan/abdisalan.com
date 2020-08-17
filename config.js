@@ -27,7 +27,7 @@ module.exports = {
   author: {
     name: 'Abdisalan Mohamud',
     photo: '/photo.jpg',
-    bio: 'Tufts \'17, Software Engineer @ Dispatch. I blog about functional programming and other stuff.',
+    bio: 'Tufts \'17, Software Engineer @ OhmConnect. I blog about programming and other stuff.',
     contacts: {
       twitter: 'abdisalan_js',
       github: 'abdisalan',
