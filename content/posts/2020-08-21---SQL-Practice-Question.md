@@ -1,6 +1,6 @@
 ---
 title: "SQL Practice Question: Newest Dog & Owner"
-date: "2020-08-19T14:40:48.015Z"
+date: "2020-08-21T23:00:48.015Z"
 template: "post"
 draft: false
 slug: "/posts/sql-practice-question-dogs"
