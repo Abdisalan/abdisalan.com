@@ -1,10 +1,10 @@
 ---
 title: "SQL Practice Question: Newest Dog & Owner"
-date: "2020-08-17T01:39:55.404Z"
+date: "2020-08-19T14:40:48.015Z"
 template: "post"
 draft: false
 slug: "/posts/sql-practice-question-dogs"
-description: "It seems simple then you figure out it's pretty challenging"
+description: "It seems simple, then it's challenging, then it's easy!"
 category: "Tutorial"
 tags:
   - "SQL"
@@ -50,17 +50,17 @@ CREATE TABLE dogs (
 );
 ```
 
-Note that there is a one to many relationship between the owners and dogs table. There is one owner id tied to each dog and enforced by a foreign key contraint.
+Note that there is a one to many relationship between the owners and dogs table. There is one owner id tied to each dog and enforced by a foreign key contraint i.e. you can only use owner ids that actually exist in the owners table.
 
 ## The Question
 
 Now, that the tables are setup, we can get to the real question.
 
-_Give me the latest dog each owner adopted along with the name of the owner._
+_Write an SQL query that gives the latest dog each owner adopted along with the name of the owner._
 
 Pretty simple right?
 
-Here's an example table to help you out.
+Here's some example data to help you out.
 
 ```sql
 owners
@@ -88,7 +88,9 @@ PersonB   | beagle   | 2020-09-21
 PersonA   | pit bull | 2020-08-01
 ```
 
-Try this out for yourself first, then I'll go over the answer below.
+Try this out for yourself first, then I'll go over the answer below. Don't worry about setting this up on your computer! Here's an SQL Fiddle (like CodePen but for SQL) for you test your answer!
+
+http://sqlfiddle.com/#!17/5059f/10
 
 ## Final Answer
 
@@ -157,12 +159,11 @@ PersonA   | pit bull | 2020-08-01
 ## Conclusion
 Although the question was simple, there were a few tricky queries we had to make! We needed to join tables two times and find the max aggregate on one of the tables.
 
-If you want to play around with the code, I made a SQL Fiddle you can use.
-Also if you find a better way of doing this, feel free to tell me how I royally messed up over twitter 😁
+I hope you learned something from this exercise! If you want to experiment with my final answer, I've also included a SQL Fiddle with the final answer below.
 
 http://sqlfiddle.com/#!17/5059f/9
 
 
-Thanks for reading!
+Thanks for reading! If you want more content, [follow me on twitter!](https://twitter.com/abdisalan_js)
 
 ✌️
