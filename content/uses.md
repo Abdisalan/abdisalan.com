@@ -3,23 +3,14 @@ title: "What I Use"
 template: "page"
 ---
 
-What I use at work on a day to day basis, changes from time to time but I'll try to keep this up to date.
+My work setup is pretty simple with one exception -- the holy grail of keyboards, the kinesis advantage 2.
 
 ## Hardware
-- 2x Dell 27" Monitor: U2719D -- give lots of real estate to write code!
-- 2018 Macbook Pro 15" -- absolute beast in handling workloads
-- Apple Magic Keyboard
-- Apple Magic TrackPad 2
-- Rain Design mStand Laptop Stand
+- Dell 32" 4k Monitor -- Gives good space and is pretty but maybe too big lol
+- Thinkpad X1 Carbon -- Pretty good at running chrome where I run all my programs in the cloud 😅
+- ✨Silver✨ Kinesis Advantage 2 -- The best keyboard on earth
 
 ## Software
-- Notion ❤️ -- manages all my notes and projects
-- VS Code (vim-mode)
-- iTerm2
-- Postman -- testing API endpoints
-- headspace -- meditation app
-- LastPass -- password manager
-- NordVPN -- awesome VPN!
-
-## Coming Soon 👨🏾‍🏭
-Soon, I'll add my home setup, which is much more interesting, so stay tuned!
+- Emacs org-mode for note taking & second brain
+- VS Code for coding
+- Every thing is in the browser anyway

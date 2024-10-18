@@ -5,7 +5,7 @@ module.exports = {
   pathPrefix: '/',
   title: 'Abdisalan Mohamud',
   subtitle: 'Mostly ramblings and what I\'m up to ',
-  copyright: '© Abdisalan Mohamud 2021',
+  copyright: '© Abdisalan Mohamud 2024',
   disqusShortname: '',
   postsPerPage: 100,
   googleAnalyticsId: 'UA-148068744-1',
@@ -27,9 +27,8 @@ module.exports = {
   author: {
     name: 'Abdisalan Mohamud',
     photo: '/photo.jpg',
-    bio: 'Software Engineer @ OhmConnect, Tufts \'17. I blog about programming and what I\'m up to.',
+    bio: 'I blog about programming and what I\'m up to.',
     contacts: {
-      twitter: 'abdisalan_js',
       github: 'abdisalan',
       linkedin: 'abdisalan'
     }
