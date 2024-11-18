@@ -16,7 +16,7 @@ socialImage: "media/20241117-gatsby-sad.png"
 
 # Updating my website
 
-It&rsquo;s been a long while since I wrote anything on this site. The framework I used was [Gatsby](https://www.gatsbyjs.com/docs) which in 2020 was one of the hot ways of getting a good looking blog up and running quickly. With over 41 dependencies and god knows how many more dependencies are under those 41. This thing was a beast even in 2020 standards.
+It&rsquo;s been a long while since I wrote anything on this site. The framework I used was [Gatsby](https://www.gatsbyjs.com/docs) which in 2020 was one of the hot ways of getting a good looking blog up and running quickly. With over 41 dependencies, and god knows how many more sub-dependencies, this thing was a beast.
 
 Time to run it after not touching it for nearly 4 years.
 
