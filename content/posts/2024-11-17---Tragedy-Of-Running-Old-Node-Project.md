@@ -9,7 +9,10 @@ category: "Web Development"
 tags:
   - "Life"
   - "Node"
+socialImage: "media/20241117-gatsby-sad.png"
 ---
+
+![Sad stick figure next to gatsby logo](media/20241117-gatsby-sad.png)
 
 # Updating my website
 
